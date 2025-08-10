@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Mail, Phone, Linkedin, ChevronDown, Sparkles, MapPin } from 'lucide-react'
+import { Mail, Phone, Linkedin, Sparkles, MapPin } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import profilePhoto from './profile-photo.jpg'
@@ -191,24 +191,6 @@ const Hero = () => {
           <span className="text-gray-700 font-medium">Toronto, ON, Canada</span>
         </motion.div>
       </div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-      >
-        <div className="flex flex-col items-center gap-2 text-gray-500">
-          <span className="text-sm font-medium">Scroll Down</span>
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-          >
-            <ChevronDown size={20} />
-          </motion.div>
-        </div>
-      </motion.div>
     </section>
   )
 }
