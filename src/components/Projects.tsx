@@ -28,14 +28,14 @@ const Projects = () => {
       ]
     },
     {
-      title: "Toronto Crime Data Airflow Pipeline",
+      title: "Canadian Hospital Bed Capacity Analysis",
       description: "Developed an automated ETL pipeline to extract, transform, and load crime data from Toronto's open data portal into a PostgreSQL database.",
-      tools: ["Python", "Apache Airflow", "PostgreSQL", "Docker"],
+      tools: ["Python", "PowerBI", "Azure Data Lake"],
       icon: Database,
       highlights: [
-        "Designed workflow orchestration using Apache Airflow, enabling efficient data ingestion and processing",
-        "Automated data extraction from Toronto's open data portal",
-        "Implemented data transformation and loading into PostgreSQL database"
+        "Developed a health analytics platform with Azure Databricks & Data Lake, improving data processing by 30% while ensuring secure storage and compliance with Azure Synapse.",
+        "Designed an interactive Power BI dashboard to analyze and monitor hospital bed availability across Canadian provinces and hospitals.",
+        "Developed slicers for province and hospital name to enable dynamic drill-downs, helping stakeholders identify bed shortages and capacity trends at both regional and facility levels."
       ]
     },
     {
